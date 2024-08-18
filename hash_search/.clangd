@@ -1,0 +1,22 @@
+If:
+    PathMatch: .*
+
+CompileFlags:
+    Add:
+        - -Wall
+        - -xc
+        - --target=x86_64-linux-gnu
+    Compiler: g++
+
+Diagnostics:
+  ClangTidy:
+    FastCheckFilter: Strict
+  UnusedIncludes: Strict
+
+InlayHints:
+  BlockEnd: No
+  Designators: Yes
+  Enabled: Yes
+  ParameterNames: Yes
+  DeducedTypes: Yes
+  TypeNameLimit: 24

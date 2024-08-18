@@ -1,0 +1,8 @@
+BasedOnStyle: LLVM
+IndentWidth: 4
+AlignArrayOfStructures: Right
+AlignConsecutiveAssignments: false
+BinPackArguments: false
+BitFieldColonSpacing: Both
+DerivePointerAlignment: false
+PointerAlignment: Left
